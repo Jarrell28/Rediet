@@ -1,0 +1,33 @@
+#mainNav {
+    background-color: #8F8176;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+#mainNav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#mainNav li {
+    color: #fff;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+#mainNav li.active {
+    color: #08070A;
+}
+
+#mainNav li:first-of-type {
+    margin-left: 0;
+}
+
+#basket {
+    width: 80px;
+    cursor: pointer;
+}
