@@ -1,5 +1,5 @@
 #mainNav {
-    background-color: #8F8176;
+    background-color:#fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,13 +14,13 @@
 }
 
 #mainNav li {
-    color: #fff;
+    color: black;
     margin: 10px 20px;
     cursor: pointer;
 }
 
 #mainNav li.active {
-    color: #08070A;
+    color:#722010;
 }
 
 #mainNav li:first-of-type {

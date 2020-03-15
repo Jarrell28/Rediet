@@ -13,9 +13,9 @@ const NavBar = (props) => {
                     <li onClick={props.click} className={props.currentPage === "About" ? "active" : ""}>About</li>
                     <li onClick={props.click} className={props.currentPage === "Contact" ? "active" : ""}>Contact</li>
                 </ul>
-                <div>
+              {/* <div>
                     <img src={basket} id="basket"/>
-                </div>
+                </div> */}
             </nav>
         </div>
     )

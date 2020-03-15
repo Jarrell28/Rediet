@@ -3,6 +3,7 @@ import './css/App.css';
 import Greet from './components/Greet'
 import Welcome from './components/welcome'
 import NavBar from './components/NavBar';
+import ClothingSlider from './components/ClothingSlider';
 
 class App extends React.Component {
   constructor(props){
@@ -21,8 +22,13 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className="container">
-        <NavBar click={this.onPageClick} currentPage={this.state.activePage}/>
+      <div className="App">
+        <div className="pattern"></div>
+        <div className="container">
+          <NavBar click={this.onPageClick} currentPage={this.state.activePage}/>
+          <ClothingSlider/>
+        </div>
+        <div className="pattern"></div>
       </div>
     );
   }

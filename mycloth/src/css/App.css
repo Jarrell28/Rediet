@@ -3,19 +3,27 @@
 }
 
 body {
-  background-image: url("../img/picture.png");
-  background-size:500px;
-  
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 2px;
+}
+
+.App {
+  display: flex;
+}
+
+.App .pattern {
+  width: 50px;
+  background-image: url("../img/pic2.jpg");
+  background-size: 50px;
 }
 
 .container {
   text-align: center;
-  background: #fff;
-  width: 75%;
+  width: calc(100% - 100px);
   margin: 0 auto;
   min-height:100vh;
   padding: 0;
-  background-color: #F6DFB9;
+  background-color: white ;
 }
 
 
@@ -39,7 +47,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #D7D7DA;
 }
 
 .App-link {
@@ -55,3 +63,7 @@ body {
   }
 }
 
+.picture {
+  width:200px;
+  margin: 0 auto;
+}
